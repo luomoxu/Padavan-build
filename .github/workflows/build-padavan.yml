@@ -33,7 +33,7 @@ jobs:
         mv 1.15.6 1.14.13
     - name: Build Firmware
       env:
-        TNAME: NEWIFI-MINI
+        TNAME: NEWIFI3
       run: |
         cd /opt/rt-n56u/trunk
         if [ ! -f configs/templates/$TNAME.config ] ; then
